@@ -78,7 +78,7 @@ namespace AutoMailbox
 
         static DateTime ParseDate(string headers)
         {
-            headers = headers ?? "";
+            headers ??= string.Empty;
 
             foreach (var line in headers.Split('\n'))
             {

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Globalization;
-using AutoMailbox.Controllers;
-using Microsoft.Extensions.Logging;
-
-namespace AutoMailbox
+﻿namespace AutoMailbox
 {
     public class EmailFormModel
     {
